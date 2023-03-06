@@ -97,6 +97,7 @@ make_palette(dat,n = 10, clust_method = "kmeans")
 title(main = "Color Palette using 'colorfindr'")
 
 
+# To see see the how fast the function written by me produces the color palette as compared to the functions 'get_colors' and 'make_palette'
 library(rbenchmark)
 benchmark(
   {
